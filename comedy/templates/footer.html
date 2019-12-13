@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% block content %}{% endblock %}
+<head>
+	<title>{% block title %}{{ title }}{% endblock %}</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/footer_style.css">
+	{% block css %} {% endblock %}
+
+	{% block js %}{% endblock %}
+</head>
+<body>
+<div class = "footer">
+  <ul class = "good_sync">
+    <li><a href="https://www.minsalud.gov.co/salud/publica/SMental/Paginas/suicidio.aspx">Atención al suicidio Colombia</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
